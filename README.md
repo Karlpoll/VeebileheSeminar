@@ -1,1 +1,3 @@
 # VeebileheSeminar
+
+Minu esimene repositoorium
