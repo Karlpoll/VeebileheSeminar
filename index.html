@@ -2,23 +2,37 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
-        <title>Minu Vero pildid</title>
-    </head>
-<body style="background-color: #1C2833;">
-    
-    <h1 style="font-family:verdana;"><img src="Vero-icon-192.png" alt="Vero logo" width="50" height="50"/> Minu Vero pildid </h1>
-    <p>Siin on mõned pildid, mille ma olen viimasel ajal Vero rakendusse üles laadinud! <br></p>
-    
-    <img src="ämblikuvõrk.png" width="250" height="300"
-    alt="Pilt ämblikuvõrgust"/>
-    <img src="niguliste.png" width="250" height="300"
-    alt="Pilt niguliste kirikust"/>
-    <img src="puu.png" width="250" height="300"
-    alt="Pilt puust"/>
+        <title>Minu Vero pildid</title> 
 
-    <br>
-<a href="https://vero.co/karlpoll" target="_blank"> Minu Vero konto</a>
+        <style>
+            
+        </style>
+    </head>
+<body> 
+    <section class="Pea">
+        <h1><img src="Vero-icon-192.png" alt="Vero logo" width="70" height="70"/> Minu Vero pildid </h1>
+    </section>
+
+    <section class="Galerii">
+
+        <p class="Sisu">Siin on mõned pildid, mille ma olen viimasel ajal Vero rakendusse üles laadinud! <br></p>
+        
+        <div class="pildid">
+            <img id = "pilt" src="ämblikuvõrk.png" width="250" height="300"
+            alt="Pilt ämblikuvõrgust"/>
+            <img id = "pilt" src="niguliste.png" width="250" height="300"
+            alt="Pilt niguliste kirikust"/>
+            <img id = "pilt" src="puu.png" width="250" height="300"
+            alt="Pilt puust"/>
+        </div>
+        <br>
+    </section>
+    
+
+    
+<a id="link" href="https://vero.co/karlpoll" target="_blank"> Minu Vero konto</a>
 <h2>Siin on pildi pealkirjade loetelu:</h2>
 <ol>
     <li>ämblikuvõrk</li>
@@ -26,27 +40,50 @@
     <li>puu</li>
 </ol>
 
-<table border="2">
-    <tr>
-        <th style="font-family:verdana;">Tulp 1</th>
-        <th style="font-family:verdana;">Tulp 2</th>
-        <th style="font-family:verdana;">Tulp 3</th>
-    </tr>
-    <tr>
-        <td style="font-family:verdana;">Rida 1 Tulp 1</td>
-        <td style="font-family:verdana;">Rida 1 Tulp 2</td>
-        <td style="font-family:verdana;">Rida 1 Tulp 3</td>
-    </tr>
-    <tr>
-        <td style="font-family:verdana;">Rida 2 Tulp 1</td>
-        <td style="font-family:verdana;">Rida 2 Tulp 2</td>
-        <td style="font-family:verdana;">Rida 2 Tulp 3</td>
-    </tr>
-</table>
+<div class="ükstabel">
+    <table border ="2">
+        <tr>
+            <th >Tulp 1</th>
+            <th >Tulp 2</th>
+            <th >Tulp 3</th>
+        </tr>
+        <tr>
+            <td >Rida 1 Tulp 1</td>
+            <td >Rida 1 Tulp 2</td>
+            <td >Rida 1 Tulp 3</td>
+        </tr>
+        <tr>
+            <td >Rida 2 Tulp 1</td>
+            <td >Rida 2 Tulp 2</td>
+            <td >Rida 2 Tulp 3</td>
+        </tr>
+    </table>
+</div>
+
+<br>
+<div class="teinetabel">
+    <table border ="2">
+        <tr>
+            <th >Tulp 1</th>
+            <th >Tulp 2</th>
+            <th >Tulp 3</th>
+        </tr>
+        <tr>
+            <td >Rida 1 Tulp 1</td>
+            <td >Rida 1 Tulp 2</td>
+            <td >Rida 1 Tulp 3</td>
+        </tr>
+        <tr>
+            <td >Rida 2 Tulp 1</td>
+            <td >Rida 2 Tulp 2</td>
+            <td >Rida 2 Tulp 3</td>
+        </tr>
+    </table>
+</div>
+
 <br>
 <a href="index2.html" target="_blank"> Siin on link järgmisele leheküljele</a>
+
+<div class="pacer layer1"></div>
 </body>
-
-
-
 </html>
